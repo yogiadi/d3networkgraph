@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "name": "root",
+      "label": "folder",
+      "id": 1
+    },
+    {
+      "name": "A",
+      "label": "folder",
+      "id": 2
+    },
+    {
+      "name": "B",
+      "label": "folder",
+      "id": 3
+    },
+    {
+      "name": "C",
+      "label": "folder",
+      "id": 4
+    },
+      {
+        "name": "E",
+        "label": "folder",
+        "id": 6
+      },
+      {
+        "name": "y.py",
+        "label": "Pythonfile",
+        "id": 8
+      },
+      {
+        "name": "x.py",
+        "label": "Pythonfile",
+        "id": 9
+      },
+      {
+        "name": "f1",
+        "label": "function",
+        "id": 10
+      },
+      {
+        "name": "f2",
+        "label": "function",
+        "id": 11
+      }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": 2,
+      "type": "contains"
+    },
+    {
+        "source": 1,
+        "target": 3,
+        "type": "contains"
+    },
+    {
+        "source": 2,
+        "target": 6,
+        "type": "contains"
+    },
+    {
+        "source": 3,
+        "target": 4,
+        "type": "contains"
+    },
+    {
+        "source": 6,
+        "target": 8,
+        "type": "contains"
+    },
+    {
+        "source": 4,
+        "target": 9,
+        "type": "contains"
+    },
+    {
+        "source": 8,
+        "target": 10,
+        "type": "contains"
+    },
+    {
+        "source": 9,
+        "target": 11,
+        "type": "contains"
+    },
+    {
+      "source": 10,
+      "target": 11,
+      "type": "dependenton"
+    }
+  ]
+}
